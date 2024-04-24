@@ -1,0 +1,15 @@
+version: '3.9'
+
+services:
+  app:
+    command: mvn spring-boot:run
+    ports:
+      - "8080:8080"
+  
+  db:
+    ports:
+      - "3306:3306"
+  
+  phpmyadmin:
+    ports:
+      - "8081:8080"
