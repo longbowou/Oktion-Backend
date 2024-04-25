@@ -15,7 +15,7 @@ import org.springframework.stereotype.Component;
 import java.util.List;
 
 @Component
-public class AuctionDataLoader implements ApplicationRunner {
+public class OktionDataLoader implements ApplicationRunner {
     @Autowired
     private UserRepository userRepository;
 
@@ -25,7 +25,7 @@ public class AuctionDataLoader implements ApplicationRunner {
     @Autowired
     private CategoryRepository categoryRepository;
 
-    public AuctionDataLoader() {
+    public OktionDataLoader() {
     }
 
     public void run(ApplicationArguments args) {

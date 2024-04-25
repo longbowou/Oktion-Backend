@@ -9,13 +9,13 @@ import java.util.TimeZone;
 
 @SpringBootApplication
 @EnableScheduling
-public class AuctionApplication {
+public class OktionApplication {
     @PostConstruct
     public void init() {
         TimeZone.setDefault(TimeZone.getTimeZone("America/Chicago"));
     }
 
     public static void main(String[] args) {
-        SpringApplication.run(AuctionApplication.class, args);
+        SpringApplication.run(OktionApplication.class, args);
     }
 }
