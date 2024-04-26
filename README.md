@@ -4,13 +4,27 @@ Oktion is a cutting-edge online auction platform designed to revolutionize the w
 buying and selling goods and services. With a focus on security, transparency, and user-friendliness, Oktion provides a
 seamless auction experience for both buyers and sellers, fostering trust and confidence in every transaction.
 
+## Class Diagram
+
+![class-diagram.png](screenshots/class-diagram.png)
+
 ## ER Diagram
 
 ![er-diagram.png](screenshots/er-diagram.png)
 
-## Class Diagram
+## Architecture
 
-![class-diagram.png](screenshots/class-diagram.png)
+![architecture.png](screenshots/architecture.png)
+
+## GitHub Actions
+
+![Screenshot2024-04-26at12.13.34AM.png](screenshots/Screenshot2024-04-26at12.13.34AM.png)
+![Screenshot2024-04-26at12.14.04AM.png](screenshots/Screenshot2024-04-26at12.14.04AM.png)
+
+## Azure Web App
+
+![Screenshot2024-04-26at12.11.57AM.png](screenshots/Screenshot2024-04-26at12.11.57AM.png)
+![Screenshot2024-04-26at12.12.50AM.png](screenshots/Screenshot2024-04-26at12.12.50AM.png)
 
 ## Online Demo
 
@@ -18,7 +32,7 @@ Feel free to try it out. Check the credentials below.
 
 ### Account
 
-[https://oktion.danielblandes.com](https://oktion.danielblandes.com)
+[https://oktion-frontend.azurewebsites.net](https://oktion-frontend.azurewebsites.net)
 
 - Seller
     - seller@oktion.app
@@ -34,7 +48,7 @@ Feel free to try it out. Check the credentials below.
 
 ### App (Backend)
 
-Swagger - [https://app.oktion.danielblandes.com/api/swagger-ui/index.html](https://app.oktion.danielblandes.com/api/swagger-ui/index.html)
+Swagger - [https://oktion.azurewebsites.net/api/swagger-ui/index.html](https://oktion.azurewebsites.net/api/swagger-ui/index.html)
 
 # Key Features
 
@@ -100,7 +114,7 @@ documentation of the REST API, enabling seamless interaction and testing by deve
   and execute asynchronous tasks at predetermined intervals or times. This allows the backend to handle time-sensitive
   operations, such as closing auctions, in a non-blocking manner.
 
-### Account (React Framework)
+### [Account (React Framework)](https://github.com/longbowou/Oktion-Frontend)
 
 The frontend of Oktion is built using the [React framework](https://legacy.reactjs.org/docs/getting-started.html), a
 popular JavaScript library for building user interfaces.
@@ -126,7 +140,7 @@ applications.
 - Clone the repository
 
 ```bash
-git clone git@gitlab.com:oktion/oktion.git
+git clone git@github.com:longbowou/Oktion-Backend.git
 ```
 
 - Update env variables
@@ -156,4 +170,4 @@ docker compose -f docker-compose.yml -f docker-compose.dev.yml up
 
 ### What's next ?
 
-Check the frontend on [Oktion Account](https://gitlab.com/oktion/oktion-account) repository
+Check the frontend on [Oktion Account](https://github.com/longbowou/Oktion-Frontend) repository
