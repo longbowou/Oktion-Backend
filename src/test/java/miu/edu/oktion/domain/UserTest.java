@@ -10,6 +10,8 @@ import miu.edu.oktion.service.security.UserServiceImpl;
 import org.junit.jupiter.api.Test;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
+import java.util.List;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.mockito.Mockito.mock;
@@ -38,11 +40,17 @@ public class UserTest {
         ProductRepository productRepository = mock(ProductRepository.class);
         BiddingRepository biddingRepository = mock(BiddingRepository.class);
 
+        Role roleCustomer = new Role();
+        roleCustomer.setRole("CUSTOMER");
+        roleRepository.save(roleCustomer);
+
         // Creating a user
         UserDTO user = new UserDTO();
         user.setName("testuser");
         user.setEmail("test@example.com");
         user.setPassword("testPassword");
+
+        user.setRoles(List.of(roleCustomer.getRole()));
 
         // Creating a service and saving the user
         UserService userService = new UserServiceImpl(userRepository, roleRepository, passwordEncoder, productRepository, biddingRepository);
