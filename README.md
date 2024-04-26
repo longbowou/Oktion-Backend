@@ -18,7 +18,7 @@ seamless auction experience for both buyers and sellers, fostering trust and con
 
 ## Deployment
 
-![deployment.webp](screenshots/deployment.webp)
+![deployment.webp](screenshots/deployment.jpg)
 
 ## GitHub Actions
 
