@@ -88,9 +88,11 @@ public class ProductServiceImpl implements ProductService {
     void setProductSellerAndCategory(Product product) {
         List<Category> categoryList = new ArrayList<>();
 
-        User seller = (User) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
-        /*userRepository.findById(product.getSellerId()).get();*/
-        product.setSeller(seller);
+        if (SecurityContextHolder.getContext().getAuthentication() != null) {
+            User seller = (User) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
+            /*userRepository.findById(product.getSellerId()).get();*/
+            product.setSeller(seller);
+        }
 
         for (String id : product.getCategoryIds()) {
             Category category = categoryRepository.findById(id).get();
