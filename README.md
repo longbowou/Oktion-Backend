@@ -18,19 +18,19 @@ seamless auction experience for both buyers and sellers, fostering trust and con
 
 ## GitHub Actions
 
-![Screenshot2024-04-26at12.13.34AM.png](screenshots/Screenshot2024-04-26at12.13.34AM.png)
-![Screenshot2024-04-26at12.14.04AM.png](screenshots/Screenshot2024-04-26at12.14.04AM.png)
+![Screenshot2024-04-26at1.47.00AM.png](screenshots/Screenshot2024-04-26at1.47.00AM.png)
+![Screenshot2024-04-26at1.46.53AM.png](screenshots/Screenshot2024-04-26at1.46.53AM.png)
 
 ## Azure Web App
 
-![Screenshot2024-04-26at12.11.57AM.png](screenshots/Screenshot2024-04-26at12.11.57AM.png)
-![Screenshot2024-04-26at12.12.50AM.png](screenshots/Screenshot2024-04-26at12.12.50AM.png)
+![Screenshot2024-04-26at1.47.58AM.png](screenshots/Screenshot2024-04-26at1.47.58AM.png)
+![Screenshot2024-04-26at1.46.32AM.png](screenshots/Screenshot2024-04-26at1.46.32AM.png)
 
 ## Online Demo
 
 Feel free to try it out. Check the credentials below.
 
-### Account
+### [Account](https://github.com/longbowou/Oktion-Frontend)
 
 [https://oktion-frontend.azurewebsites.net](https://oktion-frontend.azurewebsites.net)
 
@@ -46,7 +46,7 @@ Feel free to try it out. Check the credentials below.
     - jane@oktion.app
     - janepassword
 
-### App (Backend)
+### [App (Backend)](https://github.com/longbowou/Oktion-Backend)
 
 Swagger - [https://oktion.azurewebsites.net/api/swagger-ui/index.html](https://oktion.azurewebsites.net/api/swagger-ui/index.html)
 
@@ -83,7 +83,7 @@ Swagger - [https://oktion.azurewebsites.net/api/swagger-ui/index.html](https://o
 The application architecture is split in two different parts: app(backend) for API and account(frontend) for Sellers and
 Bidding.
 
-### App (Backend With Spring Framework)
+### [App (Backend With Spring Framework)](https://github.com/longbowou/Oktion-Backend)
 
 Oktion's backend, developed using the [Spring Framework](https://spring.io/projects/spring-boot), stands out for its
 robust performance and scalability.
