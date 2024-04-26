@@ -12,7 +12,6 @@ import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Component;
 
 import java.time.LocalDateTime;
-import java.time.ZoneId;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -39,19 +38,19 @@ public class ProductServiceImpl implements ProductService {
 
     @Override
     public Product createProduct(Product product) {
-        ZoneId oldZone = ZoneId.of("UTC");
-        ZoneId newZone = ZoneId.of("America/Chicago");
-
-        LocalDateTime newBidDueDate = product.getBidDueDate().atZone(oldZone)
-                .withZoneSameInstant(newZone)
-                .toLocalDateTime();
-
-        LocalDateTime newBiddingPaymentDueDate = product.getBiddingPaymentDueDate().atZone(oldZone)
-                .withZoneSameInstant(newZone)
-                .toLocalDateTime();
-
-        product.setBidDueDate(newBidDueDate);
-        product.setBiddingPaymentDueDate(newBiddingPaymentDueDate);
+//        ZoneId oldZone = ZoneId.of("UTC");
+//        ZoneId newZone = ZoneId.of("America/Chicago");
+//
+//        LocalDateTime newBidDueDate = product.getBidDueDate().atZone(oldZone)
+//                .withZoneSameInstant(newZone)
+//                .toLocalDateTime();
+//
+//        LocalDateTime newBiddingPaymentDueDate = product.getBiddingPaymentDueDate().atZone(oldZone)
+//                .withZoneSameInstant(newZone)
+//                .toLocalDateTime();
+//
+//        product.setBidDueDate(newBidDueDate);
+//        product.setBiddingPaymentDueDate(newBiddingPaymentDueDate);
         product.setCreatedOn(LocalDateTime.now());
         product.setDepositAmount(product.getPrice() * (product.getDeposit() / 100));
         setProductSellerAndCategory(product);
