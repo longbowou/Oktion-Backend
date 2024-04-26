@@ -4,57 +4,7 @@ Oktion is a cutting-edge online auction platform designed to revolutionize the w
 buying and selling goods and services. With a focus on security, transparency, and user-friendliness, Oktion provides a
 seamless auction experience for both buyers and sellers, fostering trust and confidence in every transaction.
 
-## Class Diagram
-
-![class-diagram.png](screenshots/class-diagram.png)
-
-## ER Diagram
-
-![er-diagram.png](screenshots/er-diagram.png)
-
-## Architecture
-
-![architecture.png](screenshots/architecture.png)
-
-## Deployment
-
-![deployment.webp](screenshots/deployment.jpg)
-
-## GitHub Actions
-
-![Screenshot2024-04-26at12.13.34AM.png](screenshots/Screenshot2024-04-26at12.13.34AM.png)
-![Screenshot2024-04-26at12.14.04AM.png](screenshots/Screenshot2024-04-26at12.14.04AM.png)
-
-## Azure Web App
-
-![Screenshot2024-04-26at12.11.57AM.png](screenshots/Screenshot2024-04-26at12.11.57AM.png)
-![Screenshot2024-04-26at12.12.50AM.png](screenshots/Screenshot2024-04-26at12.12.50AM.png)
-
-## Online Demo
-
-Feel free to try it out. Check the credentials below.
-
-### [Account](https://github.com/longbowou/Oktion-Frontend)
-
-[https://oktion-frontend.azurewebsites.net](https://oktion-frontend.azurewebsites.net)
-
-- Seller
-    - seller@oktion.app
-    - sellerpassword
-
-- Buyer John
-    - john@oktion.app
-    - johnpassword
-
-- Buyer Jane
-    - jane@oktion.app
-    - janepassword
-
-### [App (Backend)](https://github.com/longbowou/Oktion-Backend)
-
-Swagger - [https://oktion.azurewebsites.net/api/swagger-ui/index.html](https://oktion.azurewebsites.net/api/swagger-ui/index.html)
-
-# Key Features
+## Key Features
 
 - **Transparent Bidding Process**: Transparency is at the core of Oktion's ethos. Users can participate in auctions with
   full confidence, knowing that each bid is recorded and displayed in real-time. Additionally, Oktion incorporates
@@ -134,6 +84,56 @@ applications.
   principles, ensuring a seamless user experience across devices of all sizes. CSS frameworks like Bootstrap or
   Material-UI may be utilized for efficient layout structuring and styling, enhancing the visual appeal and usability of
   the application.
+
+## Class Diagram
+
+![class-diagram.png](screenshots/class-diagram.png)
+
+## ER Diagram
+
+![er-diagram.png](screenshots/er-diagram.png)
+
+## Architecture
+
+![architecture.png](screenshots/architecture.png)
+
+## Deployment
+
+![deployment.webp](screenshots/deployment.jpg)
+
+## GitHub Actions
+
+![Screenshot2024-04-26at12.13.34AM.png](screenshots/Screenshot2024-04-26at12.13.34AM.png)
+![Screenshot2024-04-26at12.14.04AM.png](screenshots/Screenshot2024-04-26at12.14.04AM.png)
+
+## Azure Web App
+
+![Screenshot2024-04-26at12.11.57AM.png](screenshots/Screenshot2024-04-26at12.11.57AM.png)
+![Screenshot2024-04-26at12.12.50AM.png](screenshots/Screenshot2024-04-26at12.12.50AM.png)
+
+## Online Demo
+
+Feel free to try it out. Check the credentials below.
+
+### [Account](https://github.com/longbowou/Oktion-Frontend)
+
+[https://oktion-frontend.azurewebsites.net](https://oktion-frontend.azurewebsites.net)
+
+- Seller
+    - seller@oktion.app
+    - sellerpassword
+
+- Buyer John
+    - john@oktion.app
+    - johnpassword
+
+- Buyer Jane
+    - jane@oktion.app
+    - janepassword
+
+### [App (Backend)](https://github.com/longbowou/Oktion-Backend)
+
+Swagger - [https://oktion.azurewebsites.net/api/swagger-ui/index.html](https://oktion.azurewebsites.net/api/swagger-ui/index.html)
 
 ## Requirements
 
