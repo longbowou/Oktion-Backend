@@ -18,13 +18,13 @@ seamless auction experience for both buyers and sellers, fostering trust and con
 
 ## GitHub Actions
 
-![Screenshot2024-04-26at1.47.00AM.png](screenshots/Screenshot2024-04-26at1.47.00AM.png)
-![Screenshot2024-04-26at1.46.53AM.png](screenshots/Screenshot2024-04-26at1.46.53AM.png)
+![Screenshot2024-04-26at12.13.34AM.png](screenshots/Screenshot2024-04-26at12.13.34AM.png)
+![Screenshot2024-04-26at12.14.04AM.png](screenshots/Screenshot2024-04-26at12.14.04AM.png)
 
 ## Azure Web App
 
-![Screenshot2024-04-26at1.47.58AM.png](screenshots/Screenshot2024-04-26at1.47.58AM.png)
-![Screenshot2024-04-26at1.46.32AM.png](screenshots/Screenshot2024-04-26at1.46.32AM.png)
+![Screenshot2024-04-26at12.11.57AM.png](screenshots/Screenshot2024-04-26at12.11.57AM.png)
+![Screenshot2024-04-26at12.12.50AM.png](screenshots/Screenshot2024-04-26at12.12.50AM.png)
 
 ## Online Demo
 
