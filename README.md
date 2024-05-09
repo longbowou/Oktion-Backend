@@ -4,6 +4,30 @@ Oktion is a cutting-edge online auction platform designed to revolutionize the w
 buying and selling goods and services. With a focus on security, transparency, and user-friendliness, Oktion provides a
 seamless auction experience for both buyers and sellers, fostering trust and confidence in every transaction.
 
+## Online Demo
+
+Feel free to try it out. Check the credentials below.
+
+### [Account](https://github.com/longbowou/Oktion-Frontend)
+
+[https://oktion.danielblandes.com](https://oktion.danielblandes.com)
+
+- Seller
+  - seller@oktion.app
+  - sellerpassword
+
+- Buyer John
+  - john@oktion.app
+  - johnpassword
+
+- Buyer Jane
+  - jane@oktion.app
+  - janepassword
+
+### [App (Backend)](https://github.com/longbowou/Oktion-Backend)
+
+Swagger - [https://app.oktion.danielblandes.com/api/swagger-ui/index.html](https://app.oktion.danielblandes.com/api/swagger-ui/index.html)
+
 ## Key Features
 
 - **Transparent Bidding Process**: Transparency is at the core of Oktion's ethos. Users can participate in auctions with
@@ -84,30 +108,6 @@ applications.
   principles, ensuring a seamless user experience across devices of all sizes. CSS frameworks like Bootstrap or
   Material-UI may be utilized for efficient layout structuring and styling, enhancing the visual appeal and usability of
   the application.
-
-## Online Demo
-
-Feel free to try it out. Check the credentials below.
-
-### [Account](https://github.com/longbowou/Oktion-Frontend)
-
-[https://oktion.danielblandes.com](https://oktion.danielblandes.com)
-
-- Seller
-    - seller@oktion.app
-    - sellerpassword
-
-- Buyer John
-    - john@oktion.app
-    - johnpassword
-
-- Buyer Jane
-    - jane@oktion.app
-    - janepassword
-
-### [App (Backend)](https://github.com/longbowou/Oktion-Backend)
-
-Swagger - [https://app.oktion.danielblandes.com/api/swagger-ui/index.html](https://app.oktion.danielblandes.com/api/swagger-ui/index.html)
 
 ## Requirements
 
