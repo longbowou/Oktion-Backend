@@ -149,3 +149,7 @@ docker compose -f docker-compose.yml -f docker-compose.dev.yml up
 ### What's next ?
 
 Check the frontend on [Oktion Account](https://github.com/longbowou/Oktion-Frontend) repository
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
